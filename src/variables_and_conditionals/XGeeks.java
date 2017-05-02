@@ -8,13 +8,27 @@ import javax.swing.JOptionPane;
  * your program should say "June's superpower is writing recipes".
  */
 public class XGeeks {
-public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        // 1. Save the superpower for each person in a variable.
-
-        // 2. Ask the user to enter a name. Store their answer in a variable.
-
-        // 3. Show the superpower in a pop-up, depending on the name entered. 
-
-    }
+		// 1. Save the superpower for each person in a variable.
+		String dannysPower = "knows nothing";
+		String varnitsPower = "everything";
+		String arnavsPower = "invisible";
+		String evansPower = "sleep";
+		// 2. Ask the user to enter a name. Store their answer in a variable.
+		String lol = JOptionPane.showInputDialog("Whos superhero do you want to know");
+		// 3. Show the superpower in a pop-up, depending on the name entered.
+		if (lol.equalsIgnoreCase("Danny")) {
+			JOptionPane.showMessageDialog(null, "Danny is " + dannysPower);
+		}
+		if (lol.equalsIgnoreCase("Varnit")) {
+			JOptionPane.showMessageDialog(null, "Varnit is " + varnitsPower);
+		}
+		if (lol.equalsIgnoreCase("Arnav")) {
+			JOptionPane.showMessageDialog(null, "Arnav is " + arnavsPower);
+		}
+		if (lol.equalsIgnoreCase("Evan")) {
+			JOptionPane.showMessageDialog(null, "Evan is " + evansPower);
+		}
+	}
 }
