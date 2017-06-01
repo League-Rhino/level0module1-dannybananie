@@ -1,3 +1,6 @@
+package for_loops;
+
+import javax.swing.JOptionPane;
 
 public class FinalCountdown {
 public static void main(String[]args){
@@ -40,6 +43,15 @@ public static void main(String[]args){
 	}
 	
 	
+	for(int i = 0; i <= 777; i=i+7){
+		System.out.println(i);
+		
+		
+	}
+	
+	for(int i = 1; i < 12; i++){
+		System.out.println("In " + (i + 2005) + " I was " + i + " years old");
+	}
 	
 	
 	
